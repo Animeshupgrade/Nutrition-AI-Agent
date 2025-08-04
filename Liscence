@@ -1,0 +1,15 @@
+
+---
+
+### **2. `requirements.txt`**
+<small>Libraries used in your notebook/project:</small>
+
+```txt
+ibm-watson-machine-learning
+pillow
+transformers
+torch
+numpy
+opencv-python
+flask
+requests
