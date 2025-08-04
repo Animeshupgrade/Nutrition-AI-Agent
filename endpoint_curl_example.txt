@@ -1,0 +1,29 @@
+# 🌐 Test Your Nutrition AI Agent Deployed on IBM watsonx.ai
+
+curl -X POST "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/71126e8a-bb27-4e48-bc96-8477c396bbb9/predictions?version=2021-05-01" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <your-access-token>" \
+  -d '{
+        "input_data": [{
+          "fields": ["input"],
+          "values": [["Suggest a 1500-calorie vegetarian meal plan for weight loss."]]
+        }]
+      }'
+
+
+# 🔐 Replace <your-access-token> with a valid IAM token.
+
+# To get the token, use the IBM Cloud CLI:
+# 1. Login:
+#     ibmcloud login
+# 2. Generate token:
+#     ibmcloud iam oauth-tokens
+
+# Example output:
+# IAM token: Bearer eyJraWQiOiJr...
+
+# 🧠 Notes:
+# - The deployment ID is: 71126e8a-bb27-4e48-bc96-8477c396bbb9
+# - Model version: runtime-24.1-py3.11
+# - Endpoint region: us-south (Dallas)
+# - API version: 2021-05-01 (as per IBM documentation)
