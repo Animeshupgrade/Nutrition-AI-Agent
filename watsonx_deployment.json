@@ -1,0 +1,7 @@
+{
+  "deployment_name": "AI Nutrition Assistant",
+  "model_type": "granite-text",
+  "deployed_at": "2025-08-04",
+  "status": "Active",
+  "endpoint": "https://ibm-watsonx.ai/<your-endpoint>"
+}
