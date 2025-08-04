@@ -1,0 +1,14 @@
+health_goals:
+  - weight_loss
+  - muscle_gain
+  - diabetes_friendly
+preferences:
+  - vegetarian
+  - gluten_free
+input_modes:
+  - text
+  - voice
+  - image
+model:
+  type: granite-model
+  endpoint: "https://<your-watsonx-endpoint>"
